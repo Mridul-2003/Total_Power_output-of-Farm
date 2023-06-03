@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style2.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body style="background-image: url('/static/image/WEC.png')">
+    
+    <div class="container">
+        
+        <h1>Predict Total Power Output of Farm</h1>
+        <div class="form-style-3">
+            <form action="{{url_for('predictpower')}}" method="post">
+            <fieldset><legend>Please Provide The Details</legend>
+                <h1>Longitudes for 16 WECs positions</h1>
+              <label for="field1"><span>X1</span><input type="number"  class="input-field" name="field1" required="required" value="" /></label>
+              <label for="field2"><span>X2</span><input type="number"  class="input-field" name="field2" required="required" value="" /></label>
+              <label for="field3"><span>X3</span><input type="number"  class="input-field" name="field3" required="required" value="" /></label>
+              <label for="field4"><span>X4</span><input type="number"  class="input-field" name="field4" required="required" value="" /></label>
+              <label for="field5"><span>X5</span><input type="number"  class="input-field" name="field5" required="required" value="" /></label>
+              <label for="field6"><span>X6</span><input type="number"  class="input-field" name="field6" required="required" value="" /></label>
+              <label for="field7"><span>X7</span><input type="number"  class="input-field" name="field7" required="required" value="" /></label>
+              <label for="field8"><span>X8</span><input type="number"  class="input-field" name="field8" required="required" value="" /></label>
+              <label for="field9"><span>X9</span><input type="number"  class="input-field" name="field9" required="required" value="" /></label>
+              <label for="field10"><span>X10</span><input type="number"  class="input-field" name="field10" required="required" value="" /></label>
+              <label for="field11"><span>X11</span><input type="number"  class="input-field" name="field11" required="required" value="" /></label>
+              <label for="field12"><span>X12</span><input type="number"  class="input-field" name="field12" required="required" value="" /></label>
+              <label for="field13"><span>X13</span><input type="number"  class="input-field" name="field13" required="required" value="" /></label>
+              <label for="field14"><span>X14</span><input type="number"  class="input-field" name="field14" required="required" value="" /></label>
+              <label for="field15"><span>X15</span><input type="number"  class="input-field" name="field15" required="required" value="" /></label>
+              <label for="field16"><span>X16</span><input type="number"  class="input-field" name="field16" required="required" value="" /></label>
+
+              <h1>Latitudes for 16 WECs positions</h1>
+              <label for="field17"><span>Y1</span><input type="number"  class="input-field" name="field17" required="required" value="" /></label>
+              <label for="field18"><span>Y2</span><input type="number"  class="input-field" name="field18" required="required" value="" /></label>
+              <label for="field19"><span>Y3</span><input type="number"  class="input-field" name="field19" required="required" value="" /></label>
+              <label for="field20"><span>Y4</span><input type="number"  class="input-field" name="field20" required="required" value="" /></label>
+              <label for="field21"><span>Y5</span><input type="number"  class="input-field" name="field21" required="required" value="" /></label>
+              <label for="field22"><span>Y6</span><input type="number"  class="input-field" name="field22" required="required" value="" /></label>
+              <label for="field23"><span>Y7</span><input type="number"  class="input-field" name="field23" required="required" value="" /></label>
+              <label for="field24"><span>Y8</span><input type="number"  class="input-field" name="field24" required="required" value="" /></label>
+              <label for="field25"><span>Y9</span><input type="number"  class="input-field" name="field25" required="required" value="" /></label>
+              <label for="field26"><span>Y10</span><input type="number"  class="input-field" name="field26" required="required" value="" /></label>
+              <label for="field27"><span>Y11</span><input type="number"  class="input-field" name="field27" required="required" value="" /></label>
+              <label for="field28"><span>Y12</span><input type="number"  class="input-field" name="field28" required="required" value="" /></label>
+              <label for="field29"><span>Y13</span><input type="number"  class="input-field" name="field29" required="required" value="" /></label>
+              <label for="field30"><span>Y14</span><input type="number"  class="input-field" name="field30" required="required" value="" /></label>
+              <label for="field31"><span>Y15</span><input type="number"  class="input-field" name="field31" required="required" value="" /></label>
+              <label for="field32"><span>Y16</span><input type="number"  class="input-field" name="field32" required="required" value="" /></label>
+
+              <h1>Power of 16 WECs</h1>
+              <label for="field33"><span>P1</span><input type="number"  class="input-field" name="field33" required="required" value="" /></label>
+              <label for="field34"><span>P2</span><input type="number"  class="input-field" name="field34" required="required" value="" /></label>
+              <label for="field35"><span>P3</span><input type="number"  class="input-field" name="field35" required="required" value="" /></label>
+              <label for="field36"><span>P4</span><input type="number"  class="input-field" name="field36" required="required" value="" /></label>
+              <label for="field37"><span>P5</span><input type="number"  class="input-field" name="field37" required="required" value="" /></label>
+              <label for="field38"><span>P6</span><input type="number"  class="input-field" name="field38" required="required" value="" /></label>
+              <label for="field39"><span>P7</span><input type="number"  class="input-field" name="field39" required="required" value="" /></label>
+              <label for="field40"><span>P8</span><input type="number"  class="input-field" name="field40" required="required" value="" /></label>
+              <label for="field41"><span>P9</span><input type="number"  class="input-field" name="field41" required="required" value="" /></label>
+              <label for="field42"><span>P10</span><input type="number"  class="input-field" name="field42" required="required" value="" /></label>
+              <label for="field43"><span>P11</span><input type="number"  class="input-field" name="field43" required="required" value="" /></label>
+              <label for="field44"><span>P12</span><input type="number"  class="input-field" name="field44" required="required" value="" /></label>
+              <label for="field45"><span>P13</span><input type="number"  class="input-field" name="field45" required="required" value="" /></label>
+              <label for="field46"><span>P14</span><input type="number"  class="input-field" name="field46" required="required" value="" /></label>
+              <label for="field47"><span>P15</span><input type="number"  class="input-field" name="field47" required="required" value="" /></label>
+              <label for="field48"><span>P16</span><input type="number"  class="input-field" name="field48" required="required" value="" /></label>
+            <label><span> </span><input type="submit" value="Predict" /></label>
+            
+            
+            </form>
+            
+            </div>
+    </div>
+    <script>
+         document.addEventListener("DOMContentLoaded", function() {
+            const output = "{{ output }}";
+            if (output !== "") {
+                Swal.fire({
+                    title: 'Power Prediction',
+                    text: `PowerAll: ${output}`,
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
