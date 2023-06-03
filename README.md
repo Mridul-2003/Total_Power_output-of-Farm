@@ -18,6 +18,6 @@ Screenshots:
 ![Screenshot 2023-06-03 at 7 14 44 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a68a1677-7004-4076-bfd8-69a727789576)
 ![Screenshot 2023-06-03 at 7 15 52 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a11168c5-33a6-41c5-b6f3-36c39675d4a3)
 ![Screenshot 2023-06-03 at 7 16 21 PM](https://github.com/Mridul-2003/Total_Power![Screenshot 2023-06-03 at 7 16 44 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/e983601d-5cb5-498a-9200-51a9c2d28f6a)
-_output-of-Farm/assets/110475111/40072cc1-1048-4b56-9a![Screenshot 2023-06-03 at 7 17 05 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a4204d08-5207-4ffb-ac00-c41dde765784)
-52-73ca84e1e96d)
+_output-of-Farm/assets/110475111/40072cc1-1048-4b56-9a52-73ca84e1e96d)!
+[Screenshot 2023-06-03 at 7 17 05 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a4204d08-5207-4ffb-ac00-c41dde765784)
 ![Screenshot 2023-06-03 at 7 18 10 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/5e07c7e8-a555-4fd5-970f-e60c42f8889f)
