@@ -2,6 +2,7 @@
 Machine learning Model to predict total power output of fam from 16 Wave energy converters
 
 Model used - LinearRegression
+
 Accuracy - 0.9999968581599514
 
 Command to run Flask app :
