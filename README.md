@@ -14,6 +14,9 @@ or
 
 2)flask --app app run
 
+to watch flask app , click 
+https://mridulmittalmlproject.onrender.com/
+
 Screenshots:
 ![Screenshot 2023-06-03 at 7 14 44 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a68a1677-7004-4076-bfd8-69a727789576)
 ![Screenshot 2023-06-03 at 7 15 52 PM](https://github.com/Mridul-2003/Total_Power_output-of-Farm/assets/110475111/a11168c5-33a6-41c5-b6f3-36c39675d4a3)
